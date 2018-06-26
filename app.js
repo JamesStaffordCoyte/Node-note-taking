@@ -2,6 +2,7 @@ const fs = require('fs');
 const _ = require('lodash');
 const yargs = require('yargs');
 
+// modules that handles different commands
 const notes = require('./notes.js');
 
 let titleOptions = {
